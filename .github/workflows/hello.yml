@@ -1,7 +1,7 @@
-name: hello demo
+name: my first ci
 on: push
 jobs:
-  say-hello:
-      runs-on: ubuntu-latest
-      steps:
-        - run: echo "Hello from actions"
+  hello:
+   runs-on: ubuntu-latest
+   steps:
+     - run: echo "now your code is complete "
